@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  calculadora:
+    image: blazegd/calculadora:v1
+    container_name: calculadora_app
+    stdin_open: true
+    tty: true
